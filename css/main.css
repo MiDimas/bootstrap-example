@@ -1,0 +1,54 @@
+
+.text-size {
+    font-size: 3rem;
+}
+.img-bg {
+    background: url('../img/look.com.ua-71627.jpg') no-repeat center top;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(53, 53, 53);
+    background-attachment: fixed;
+    height: 100vh;
+} 
+.block-t {
+    background-color: rgb(236, 236, 236);
+    height: 80vh;
+}
+.block-t-2{
+    background-color: rgb(212, 49, 49);
+    height: 60vh;
+}
+.img-bg-f{
+    background: url('../img/images.jpg') no-repeat center bottom;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(29, 27, 27);
+    background-attachment: fixed;
+    height: 90vh;
+}
+@media(min-width:450px) {
+    .text-size{
+        font-size: 5rem;
+    }
+    .block-t {
+        background-color: rgb(236, 236, 236);
+        height: 60vh;
+    }
+}
+@media(max-width:750px){
+    .block-t-2 {
+        background-color: rgb(212, 49, 49);
+        height: 130vh;
+    }
+}
+@media(max-width:628px){
+    .title-foot {
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:1000px) and (min-width:751px) {
+    .block-t-2 {
+        background-color: rgb(212, 49, 49);
+        height: 100vh;
+    }
+}
